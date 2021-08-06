@@ -1,0 +1,170 @@
+body {
+    background-color: rgb(43, 103, 114);
+    color: white;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    top: 0px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    background-image: url("./images/header_img_6.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+
+.name {
+    margin-left: 2%;
+    white-space: nowrap;
+}
+
+nav {
+    display: flex;
+    padding: 0 12% 0 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    align-items: center;
+}
+
+li {
+    text-decoration: underline;
+    margin: 0 5%;
+    white-space: nowrap;
+}
+
+a {
+    color: white;
+    font-size: 1.5em;
+}
+
+#about {
+    height: 300px;
+    width: 100%;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-heading {
+    height: 100%;
+    width: 400px;
+    background-image: url("./images/phil_photo.jpg");
+    background-repeat: no-repeat;
+    margin-right: 10%;
+}
+
+.about-me {
+    margin-top: 60%;
+    background-color: rgb(43, 103, 114);
+}
+
+.about-text {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+p {
+    font-size: 1.5em;;
+}
+
+#apply {
+        height: 700px;
+        width: 100%;
+        padding-top: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .apply-heading {
+        height: 100%;
+        width: 400px;
+        background-image: url("./images/apply.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .apply-text {
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+        width: 480px;
+        margin-right: 6%;
+    }
+
+    .apply-text p {
+        margin-top: 0;
+    }
+
+    .why-apply {
+        margin-top: 10%;
+        background-color: rgb(43, 103, 114);
+    }
+
+    #interests {
+        padding-top: 200px;
+        display: flex;
+        height: 1000px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .interests-heading {
+        height: 100%;
+        width: 400px;
+        background-image: url("./images/coding2.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .int-head-text {
+        margin-top: 50%;
+        background-color: rgb(43, 103, 114);
+    }
+
+    .interest-pics {
+        display: flex;
+        flex-direction: column;
+        padding-left: 90px;
+    }
+
+    .interest img {
+        height: 300px;
+        width: 400px;
+    }
+
+    .img-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        margin: 2%;
+    }
+
+    #japanese {
+        display: block;
+    }
+
+    #writing {
+        display: none;
+    }
+
+    #family {
+        display: none
+    }
