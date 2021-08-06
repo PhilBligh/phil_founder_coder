@@ -50,7 +50,7 @@ a {
 #about {
     height: 300px;
     width: 100%;
-    padding-top: 200px;
+    padding-top: 100px;
     display: flex;
     justify-content: center;
 }
@@ -81,9 +81,9 @@ p {
 }
 
 #apply {
-        height: 700px;
+        height: 630px;
         width: 100%;
-        padding-top: 200px;
+        padding-top: 100px;
         display: flex;
         justify-content: center;
         align-items: flex-start;
@@ -116,9 +116,9 @@ p {
     }
 
     #interests {
-        padding-top: 200px;
+        padding-top: 100px;
         display: flex;
-        height: 1000px;
+        height: 370px;
         width: 100%;
         justify-content: center;
     }
@@ -152,11 +152,20 @@ p {
         justify-content: center;
         align-items: center;
     }
-
-    button {
+    .img-nav .arrow {
+        height: 40px;
+        width: 40px;
         margin: 2%;
+        cursor: pointer;
     }
 
+    .interest figcaption {
+        width: 400px;
+        font-size: 1.25em;
+        margin-top: 5px;
+        margin-left: 45px;
+        margin-right: 45px;
+    }
     #japanese {
         display: block;
     }
@@ -167,4 +176,33 @@ p {
 
     #family {
         display: none
+    }
+
+    .links-head {
+        width: 100%;
+        border-top: 1px solid seashell;
+        border-bottom: 1px solid seashell;
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+    .links-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .link-img {
+        height: 150px;
+        width: 150px;
+        background-color: black;
+    }
+
+    .link-and-text figcaption {
+        width: 200px;
+    }
+
+    footer {
+        margin: 30px;
+        color: seashell;
+        opacity: 0.8;
+        text-align: right;
     }
